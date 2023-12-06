@@ -1,0 +1,31 @@
+.ant-typography ul li,
+.ant-typography ol li {
+  margin: 0 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+button,
+[type='button'],
+[type='submit'] {
+  background-color: #1890ff;
+  border: #1890ff;
+}
+
+.ant-switch-checked {
+  background-color: #1890ff !important;
+}
+
+.ant-switch {
+  background-color: #8889909d;
+}
+
+.ant-card-body {
+  padding: unset;
+}
+
+.ant-skeleton-element {
+  width: 100%;
+}
