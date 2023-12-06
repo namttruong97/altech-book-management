@@ -25,4 +25,4 @@
     $ docker build -t altech .
     $ docker run -p 3000:3000 altech
 
-    Link demo: https://competition-hotel.herokuapp.com/
+    Link demo: https://altech-book-management.vercel.app/
