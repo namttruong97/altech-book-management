@@ -2,7 +2,6 @@ import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 
 export interface IParams {
   url: string;
-  // options?: any;
   config?: AxiosRequestConfig;
 }
 

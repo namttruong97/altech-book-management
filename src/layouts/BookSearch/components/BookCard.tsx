@@ -37,7 +37,7 @@ export const BookCard: FC<IBookCardProps> = (props) => {
     } else {
       return (
         <div className="relative h-[140px] lg:h-[240px]">
-          <Image alt="Avatar" fill layout="cover" src={bookCover} />
+          <Image alt="Avatar" className="object-contain" fill layout="cover" src={bookCover} />
         </div>
       );
     }

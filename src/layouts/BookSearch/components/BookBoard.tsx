@@ -13,7 +13,7 @@ interface IBookBoardProps {
 
 export const BookBoard: FC<IBookBoardProps> = ({ data }) => {
   return (
-    <div className="grid grid-cols-3 gap-2 mb-4  com__bookBoard md:grid-cols-4 lg:gap-4 lg:grid-cols-5">
+    <div className="grid grid-cols-3 gap-2 mb-4 com__bookBoard md:grid-cols-4 lg:gap-4 lg:grid-cols-5">
       {data?.docs?.length === 0 ? (
         <Empty
           className="mt-16 scale-150 lg:col-span-5"
