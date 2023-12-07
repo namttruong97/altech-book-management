@@ -62,7 +62,7 @@ export const BookCard: FC<IBookCardProps> = (props) => {
         </h1>
 
         <ul className="text-xs lg:text-sm">
-          <li className="h-5 whitespace-nowrap">{props?.author_name?.[0]}</li>
+          <li className="h-5 line-clamp-1">{props?.author_name?.[0]}</li>
           <li className="h-5 text-xs text-secondary">{props?.publish_date?.[0]}</li>
           <li className="h-5 mt-2 line-clamp-1 text-purple-primary">
             {props?.language?.map((item) => capitalized(item)).join(', ')}
